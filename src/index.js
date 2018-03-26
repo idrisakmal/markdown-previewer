@@ -40,7 +40,7 @@ class Marked extends React.Component {
 class DisplayMarkup extends React.Component {
     render() {
         return (
-            <div dangerouslySetInnerHTML={createMarkup(this.props.input)} className="column"></div>
+            <div dangerouslySetInnerHTML={createMarkup(this.props.input)} className="column content"></div>
         )
     }
 }
